@@ -1,0 +1,77 @@
+# ─── Dependencies ────────────────────────────────────────────
+node_modules/
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# ─── Next.js build output & caches ───────────────────────────
+.next/
+/.next/
+/out/
+/build
+/dist
+.turbo
+
+# ─── Environment variables & Secrets ─────────────────────────
+.env
+.env*.local
+.env.local
+.env.example
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.test
+.env.production
+!.env.example
+!.env.template
+
+# ─── Certificates, Private Keys & Credentials ────────────────
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+*.keystore
+*.jks
+credentials.json
+client_secret*.json
+id_rsa
+id_ed25519
+
+# ─── Debug & runtime logs ────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ─── TypeScript cache & Linters ──────────────────────────────
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+.eslintcache
+
+# ─── OS generated files ──────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─── IDE & Editor directories ────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── Deployment & hosting ────────────────────────────────────
+.vercel
